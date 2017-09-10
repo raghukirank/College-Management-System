@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="com.biet.collegemanagementsystem.AdminScreen">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/loginbackground"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/facultymaster"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/nbackground"
+            android:text="Faculty Master"
+            android:textColor="#ffffff" />
+
+
+        <Button
+            android:id="@+id/coursemaster"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nbackground"
+            android:text="Course Master"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/departmentmaster"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nbackground"
+            android:text="Department Master"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/batchmaster"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nbackground"
+            android:text="Batch Master"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+</LinearLayout>

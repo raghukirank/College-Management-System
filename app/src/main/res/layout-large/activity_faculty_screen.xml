@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context="com.biet.collegemanagementsystem.FacultyScreen">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/loginbackground"
+        android:orientation="vertical"
+        >
+
+
+    <Button
+        android:id="@+id/takeatten"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Take Attendance"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/nbackground" />
+
+    <Button
+        android:id="@+id/fstu"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:text="Find Student"
+        android:background="@drawable/nbackground"  />
+
+    <Button
+        android:id="@+id/cp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:text="Change Password"
+        android:background="@drawable/nbackground"  />
+
+    <Button
+        android:id="@+id/viewatten"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:text="View Attendance"
+        android:background="@drawable/nbackground"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

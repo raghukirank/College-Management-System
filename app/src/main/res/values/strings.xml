@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CollegeManagementSystem</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_student_login">StudentLogin</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_faculty_screen">FacultyScreen</string>
+    <string name="title_activity_student_screen">StudentScreen</string>
+    <string name="title_activity_admin_screen">AdminScreen</string>
+    <string name="title_activity_all_views">AllViews</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_students_data">StudentsData</string>
+    <string name="title_activity_admin_signup">AdminSignup</string>
+    <string name="title_activity_admin_login">AdminLogin</string>
+    <string name="title_activity_takeattendence">Takeattendence</string>
+    <string name="title_activity_viewattendence">Viewattendence</string>
+    <string name="title_activity_changepassowrd">Changepassowrd</string>
+    <string name="title_activity_student_attendance_screen">StudentAttendanceScreen</string>
+    <string name="title_activity_findstudent">Findstudent</string>
+    <string name="title_activity_findstudentview">FINDSTUDENTVIEW</string>
+    <string name="title_activity_faculty_activation">FacultyActivation</string>
+</resources>

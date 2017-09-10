@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.biet.collegemanagementsystem" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentSignup"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentLogin"
+            android:label="@string/title_activity_student_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Admin"
+            android:label="@string/title_activity_admin"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FacultyScreen"
+            android:label="@string/title_activity_faculty_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".StudentScreen"
+            android:label="@string/title_activity_student_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AdminScreen"
+            android:label="@string/title_activity_admin_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentsData"
+            android:label="@string/title_activity_students_data"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".AdminSignup"
+            android:label="@string/title_activity_admin_signup"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AdminLogin"
+            android:label="@string/title_activity_admin_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Viewattendence"
+            android:label="@string/title_activity_viewattendence"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Changepassowrd"
+            android:label="@string/title_activity_changepassowrd"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".StudentAttendanceScreen"
+            android:label="@string/title_activity_student_attendance_screen" >
+        </activity>
+        <activity
+            android:name=".Findstudent"
+            android:label="@string/title_activity_findstudent" >
+        </activity>
+        <activity
+            android:name=".FINDSTUDENTVIEW"
+            android:label="@string/title_activity_findstudentview" >
+        </activity>
+        <activity
+            android:name=".FacultyActivation"
+            android:label="@string/title_activity_faculty_activation"
+            android:screenOrientation="landscape"
+
+            >
+        </activity>
+    </application>
+
+</manifest>
