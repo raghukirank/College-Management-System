@@ -8,3 +8,6 @@ The department can access the details of the faculty .
 The admin can access all the details of faculty, student. Summary details
 will be created and maintained for the students so that they can view their
 details like their attendance, marks details etc.
+
+
+It is based on JAVA and stores data in JSON format. 
